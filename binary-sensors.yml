@@ -14,3 +14,11 @@
   address: 32
   input_type: input
   device_class: running
+- name: Enteisung/Starten
+  address: 34
+  input_type: input
+  device_class: running
+- name: Warmstart
+  address: 35
+  input_type: input
+  device_class: running
