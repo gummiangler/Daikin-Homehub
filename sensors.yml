@@ -1,14 +1,3 @@
-- name: Stromverbrauch
-  address: 50
-  input_type: input
-  unit_of_measurement: kW
-  state_class: measurement
-  device_class: power
-  scale: 0.01
-  min_value: 0
-  max_value: 20
-  precision: 2
-  data_type: int16
 - name: Brauchwarmwasser-Temperatur
   address: 42
   input_type: input
@@ -34,5 +23,25 @@
   state_class: measurement
   device_class: temperature
   scale: 0.01
+  precision: 2
+  data_type: int16
+- name: Durchflussrate
+  address: 48
+  input_type: input
+  unit_of_measurement: L/min
+  state_class: meaurement
+  device_class: volume_flow_rate
+  scale: 0.01
+  precision: 2
+  data_type: int16
+- name: Stromverbrauch Wärmepumpe
+  address: 50
+  input_type: input
+  unit_of_measurement: kW
+  state_class: measurement
+  device_class: power
+  scale: 0.01
+  min_value: 0
+  max_value: 20
   precision: 2
   data_type: int16
