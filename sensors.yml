@@ -1,1 +1,38 @@
-
+- name: Stromverbrauch
+  address: 50
+  input_type: input
+  unit_of_measurement: kW
+  state_class: measurement
+  device_class: power
+  scale: 0.01
+  min_value: 0
+  max_value: 20
+  precision: 2
+  data_type: int16
+- name: Brauchwarmwasser-Temperatur
+  address: 42
+  input_type: input
+  unit_of_measurement: °C
+  state_class: measurement
+  device_class: temperature
+  scale: 0.01
+  precision: 2
+  data_type: int16
+- name: Lufttemperatur draußen
+  address: 43
+  input_type: input
+  unit_of_measurement: °C
+  state_class: measurement
+  device_class: temperature
+  scale: 0.01
+  precision: 2
+  data_type: int16
+- name: Temperatur Kältemittelflüssigkeit
+  address: 44
+  input_type: input
+  unit_of_measurement: °C
+  state_class: measurement
+  device_class: temperature
+  scale: 0.01
+  precision: 2
+  data_type: int16
