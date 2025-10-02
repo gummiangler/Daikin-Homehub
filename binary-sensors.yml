@@ -11,6 +11,6 @@
   input_type: input
   device_class: running
 - name: Desinfektionsbetrieb
-  address: 31
+  address: 32
   input_type: input
   device_class: running
