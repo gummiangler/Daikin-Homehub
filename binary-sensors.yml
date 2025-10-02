@@ -1,1 +1,16 @@
-
+- name: Zirkulationspumpe
+  address: 29
+  input_type: input
+  device_class: running
+- name: Verdichter
+  address: 30
+  input_type: input
+  device_class: running
+- name: Zusatzheizung
+  address: 31
+  input_type: input
+  device_class: running
+- name: Desinfektionsbetrieb
+  address: 31
+  input_type: input
+  device_class: running
